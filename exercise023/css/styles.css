@@ -1,0 +1,29 @@
+#big-box {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+#small-box {
+  width: 50%;
+  height: 50%;
+  background-color: green;
+}
+
+#px-units {
+  font-size: 32px;
+}
+
+.em-units {
+  font-size: 2em;
+}
+
+#rem-units {
+  font-size: 2rem;
+}
+
+#top-box {
+  width: 50vw;
+  height: 50vh;
+  background-color: red;
+}

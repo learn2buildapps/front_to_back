@@ -1,0 +1,19 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#normal-style {
+  font-style: normal;
+}
+
+#italic-style {
+  font-style: italic;
+}
+
+#oblique-style {
+  font-style: oblique;
+}

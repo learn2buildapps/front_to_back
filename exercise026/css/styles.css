@@ -1,0 +1,19 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#default-alignment {
+  text-align: left;
+}
+
+#center-alignment {
+  text-align: center;
+}
+
+#right-alignment {
+  text-align: right;
+}
