@@ -1,0 +1,19 @@
+.number {
+  color: orange;
+}
+
+#section-one {
+  color: grey;
+}
+
+#section-two {
+  color: blue;
+}
+
+#section-three {
+  color: green;
+}
+
+.container p {
+  color: darkblue;
+}

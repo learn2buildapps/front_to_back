@@ -1,0 +1,6 @@
+/* This is a comment in CSS */
+h1 {
+  /* Commenting out the color blue */
+  /* color: blue; */
+  color: red;
+}
