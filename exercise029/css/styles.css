@@ -1,0 +1,4 @@
+#non-default-letter-spacing {
+  /* experiment with different values - 3, 20px, 120%, etc. */
+  letter-spacing: 0.25rem;
+}

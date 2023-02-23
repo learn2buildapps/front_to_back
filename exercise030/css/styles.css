@@ -1,0 +1,4 @@
+#non-default-word-spacing {
+  /* experiment with different values - 3, 20px, 120%, etc. */
+  word-spacing: 10px;
+}

@@ -1,0 +1,11 @@
+.underline {
+  text-decoration: underline;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.cross-out {
+  text-decoration: line-through;
+}
