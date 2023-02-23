@@ -1,0 +1,38 @@
+* {
+  /* This removes the default margin of the browser */
+  margin: 0;
+}
+
+p {
+  color: yellow;
+  background-color: green;
+}
+
+#margin-top {
+  margin-top: 50px;
+}
+
+#margin-right {
+  text-align: right;
+  margin-right: 30px;
+}
+
+#margin-bottom {
+  margin-bottom: 20px;
+}
+
+#margin-left {
+  margin-left: 60px;
+}
+
+#margin-all {
+  margin: 50px 30px 20px 60px;
+}
+
+#margin-1-value {
+  margin: 50px;
+}
+
+#margin-2-values {
+  margin: 50px 30px;
+}
