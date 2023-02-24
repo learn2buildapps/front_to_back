@@ -6,8 +6,12 @@ div {
 
 #big-game-image {
   background-image: url('../images/big-game.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #small-game-image {
   background-image: url('../images/small-game.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }

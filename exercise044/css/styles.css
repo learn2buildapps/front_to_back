@@ -1,0 +1,35 @@
+div {
+  height: 300px;
+  color: white;
+  border: 2px solid yellow;
+}
+
+#big-game-image {
+  background-image: url('../images/big-game.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#big-game-image-center {
+  background-image: url('../images/big-game.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#small-game-image {
+  background-image: url('../images/small-game.jpg');
+  background-repeat: no-repeat;
+}
+
+#small-game-image-center {
+  background-image: url('../images/small-game.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#small-game-image-percentage-position {
+  background-image: url('../images/small-game.jpg');
+  background-repeat: no-repeat;
+  background-position: 30% 70%;
+}
