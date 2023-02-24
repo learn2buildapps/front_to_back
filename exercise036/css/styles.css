@@ -1,0 +1,19 @@
+p {
+  color: yellow;
+  background-color: green;
+  margin-right: 75%;
+}
+
+#normal-border {
+  border: 10px solid blue;
+}
+
+#rounded-border {
+  border: 10px solid blue;
+  border-radius: 10px;
+}
+
+#very-round-border {
+  border: 10px solid blue;
+  border-radius: 50%;
+}

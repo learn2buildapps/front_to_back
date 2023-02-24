@@ -1,0 +1,35 @@
+div {
+  height: 100px;
+  color: white;
+  border: 2px solid yellow;
+}
+
+#big-game-image {
+  background: url('../images/big-game.jpg');
+}
+
+#small-game-image {
+  background: url('../images/small-game.jpg');
+}
+
+#small-game-no-repeat {
+  background: url('../images/small-game.jpg');
+  background-repeat: no-repeat;
+}
+
+#small-game-repeat-x {
+  background: url('../images/small-game.jpg');
+  background-repeat: repeat-x;
+}
+
+#small-game-repeat-y {
+  height: 200px;
+  background: url('../images/small-game.jpg');
+  background-repeat: repeat-y;
+}
+
+#small-game-space {
+  height: 200px;
+  background: url('../images/small-game.jpg');
+  background-repeat: space;
+}

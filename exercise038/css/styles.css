@@ -1,0 +1,19 @@
+.block {
+  background-color: blue;
+  color: white;
+  margin-top: 10px;
+}
+
+.inline {
+  background-color: red;
+  color: white;
+  margin-top: 10px;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-inline {
+  display: inline;
+}

@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: #d9d9d9;
+  line-height: 1.5;
+}
+
+#welcome-section {
+  padding: 5rem 0;
+  background: #fff;
+}
+
+#welcome-title {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.underline-bar {
+  height: 0.30rem;
+  width: 10rem;
+  background: black;
+  margin: 1rem auto;
+  margin-bottom: 5rem;
+}
+
+#description {
+  margin: 5rem auto;
+  width: 80vw;
+  max-width: 1080px;
+}
+
+.navbar {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar li {
+  list-style-type: none;
+}
+
+.navbar li a {
+  color: red;
+  text-decoration: none;
+  letter-spacing: 3px;
+  background: black;
+  display: block;
+  padding: 5px;
+}

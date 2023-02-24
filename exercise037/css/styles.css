@@ -1,0 +1,35 @@
+p {
+  color: yellow;
+  background-color: green;
+  margin-right: 75%;
+  margin-left: 20px;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+#normal-outline-lw {
+  border: 10px solid blue;
+  outline-width: 10px;
+  outline-style: solid;
+  outline-color: red;
+  /* default value for outline-offset is 0 so this can be omitted */
+  outline-offset: 0;
+
+}
+
+#normal-outline-sw {
+  border: 10px solid blue;
+  outline: 10px solid red;
+}
+
+#negative-offset-outline {
+  border: 10px solid blue;
+  outline: 10px solid red;
+  outline-offset: -30px;
+}
+
+#positive-offset-outline {
+  border: 10px solid blue;
+  outline: 10px solid red;
+  outline-offset: 10px;
+}
