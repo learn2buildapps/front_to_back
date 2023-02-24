@@ -1,0 +1,19 @@
+div {
+  height: 50vh;
+  color: white;
+  border: 2px solid yellow;
+  text-align: center;
+  font-size: 50px;
+}
+
+#big-game-image {
+  background-image: url('../images/big-game.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#big-game-image-overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/big-game.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
