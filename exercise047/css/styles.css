@@ -4,10 +4,14 @@ div {
   margin: 5px;
 }
 
-#float-right {
+.float-right {
   float: right;
 }
 
-#float-left {
+.float-left {
   float: left;
+}
+
+.clear {
+  clear: both;
 }

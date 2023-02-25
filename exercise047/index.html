@@ -24,7 +24,7 @@
   </div>
 
   <div>
-    <img src="./images/small-game.jpg" alt="Small Game Image" id="float-right">
+    <img src="./images/small-game.jpg" alt="Small Game Image" class="float-right">
     <p>Floating an image to the right in CSS is a common technique used to position an image on the right side of a
       block of
       text or other content. This can help to break up large blocks of text and add visual interest to a web page or
@@ -39,7 +39,7 @@
       affected by the float.</p>
   </div>
   <div>
-    <img src="./images/small-game.jpg" alt="Small Game Image" id="float-left">
+    <img src="./images/small-game.jpg" alt="Small Game Image" class="float-left">
     <p>When an image is floated to the left, it is aligned to the left margin of the containing element and the text or
       content
       that follows it will wrap around the image on its right side. This allows for text to flow seamlessly around an
@@ -51,6 +51,14 @@
       text doesn't become too cramped around the image and that the image doesn't overwhelm the surrounding content.
       Proper
       use of margins, padding, and the clear property can help prevent these issues.</p>
+  </div>
+  <div>
+    <img src="./images/small-game.jpg" alt="Small Game Image" class="float-right">
+    <p class="clear">It's important to note that floated elements must have a specified width in order to be positioned
+      correctly. Also, if
+      all of the elements within a container are floated, the container's height will collapse to zero, which can cause
+      layout
+      issues. To avoid this, you can use a clearfix to clear the floats and restore the container's height.</p>
   </div>
 </body>
 
