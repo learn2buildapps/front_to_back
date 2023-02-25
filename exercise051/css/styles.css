@@ -1,0 +1,50 @@
+.container {
+  border: 5px solid blue;
+  padding: 10px;
+  margin: 20px;
+  position: relative;
+  width: 80vw;
+  height: 30vh;
+}
+
+.box-1 {
+  width: 200px;
+  height: 200px;
+  background: green;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.box-2 {
+  width: 200px;
+  height: 200px;
+  background: red;
+  color: white;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.box-3 {
+  width: 200px;
+  height: 200px;
+  background: blue;
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+
+.z-index-2 {
+  z-index: 2;
+}
+
+.z-index-3 {
+  z-index: 3;
+}

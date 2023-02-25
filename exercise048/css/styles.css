@@ -1,0 +1,28 @@
+div {
+  border: 5px solid blue;
+  padding: 10px;
+  margin: 5px;
+}
+
+.no-position {
+  background: blue;
+  color: white;
+}
+
+.static-position {
+  background: red;
+  position: static;
+}
+
+.relative-position-top {
+  background: red;
+  position: relative;
+  top: 10px;
+}
+
+.relative-position-bottom-left {
+  background: red;
+  position: relative;
+  bottom: 10px;
+  left: 1rem;
+}
