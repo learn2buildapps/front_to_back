@@ -1,0 +1,64 @@
+:root {
+  --bestBlueColor: rgb(15, 15, 218);
+  --bestRedColor: rgb(207, 25, 25);
+  --bestGreenColor: rgb(11, 107, 11);
+  --bigSquareSize: 200px;
+  --smallSquareSize: 50px;
+  --borderSettings: 5px solid black;
+}
+
+#container-no-variables {
+  height: 200px;
+  width: 200px;
+  border: 5px solid black;
+  margin: 10px;
+}
+
+#first-box {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  background: rgb(207, 25, 25);
+}
+
+#second-box {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  background: rgb(15, 15, 218);
+}
+
+#third-box {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  background: rgb(11, 107, 11);
+}
+
+#container-variables {
+  height: var(--bigSquareSize);
+  width: var(--bigSquareSize);
+  border: var(--borderSettings);
+  margin: 10px;
+}
+
+#fourth-box {
+  height: var(--smallSquareSize);
+  width: var(--smallSquareSize);
+  margin: 5px;
+  background: var(--bestRedColor);
+}
+
+#fifth-box {
+  height: var(--smallSquareSize);
+  width: var(--smallSquareSize);
+  margin: 5px;
+  background: var(--bestBlueColor);
+}
+
+#sixth-box {
+  height: var(--smallSquareSize);
+  width: var(--smallSquareSize);
+  margin: 5px;
+  background: var(--bestGreenColor);
+}
