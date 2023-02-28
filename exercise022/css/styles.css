@@ -17,3 +17,8 @@
   color: #ff0000;
   background-color: #00ff00;
 }
+
+#hsl-color {
+  color: hsl(0, 100%, 50%);
+  background-color: hsl(100, 100%, 50%);
+}

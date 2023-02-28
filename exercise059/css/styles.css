@@ -1,0 +1,48 @@
+.flex-container {
+  border: 5px solid blue;
+  display: flex;
+  margin: 10px;
+  width: 600px;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.box {
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.flex-item-1 {
+  background: red;
+}
+
+.flex-item-2 {
+  background: green;
+}
+
+.flex-item-3 {
+  background: yellow;
+}
+
+.flex-item-4 {
+  background: purple;
+}
+
+.flex-item-5 {
+  background: orange;
+}

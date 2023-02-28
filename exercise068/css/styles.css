@@ -1,0 +1,29 @@
+.flex-container {
+  border: 5px solid blue;
+  display: flex;
+  margin: 10px;
+  height: 300px;
+  align-items: center;
+}
+
+.gap {
+  gap: 30px;
+}
+
+.box {
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.flex-item-1 {
+  background: red;
+}
+
+.flex-item-2 {
+  background: green;
+}
+
+.flex-item-3 {
+  background: yellow;
+}

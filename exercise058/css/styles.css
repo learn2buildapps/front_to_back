@@ -1,0 +1,40 @@
+.flex-container {
+  border: 5px solid blue;
+  display: flex;
+  margin: 10px;
+  width: 350px;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.box {
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.flex-item-1 {
+  background: red;
+}
+
+.flex-item-2 {
+  background: green;
+}
+
+.flex-item-3 {
+  background: yellow;
+}
+
+.flex-item-4 {
+  background: purple;
+}
+
+.flex-item-5 {
+  background: orange;
+}

@@ -1,0 +1,40 @@
+.flex-container {
+  border: 5px solid blue;
+  display: flex;
+  margin: 10px;
+  height: 300px;
+}
+
+.box {
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.flex-basis {
+  flex-basis: 300px;
+}
+
+.flex-item-1 {
+  background: red;
+}
+
+.flex-item-2 {
+  background: green;
+}
+
+.flex-item-3 {
+  background: yellow;
+}
+
+.flex-item-4 {
+  background: purple;
+}
+
+.flex-item-5 {
+  background: orange;
+}
+
+.flex-item-6 {
+  background: blueviolet;
+}
