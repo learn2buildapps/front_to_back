@@ -1,0 +1,33 @@
+/* Reset Browser Defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid-container-3-columns-by-3-rows {
+  border: 5px solid blue;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: [start] 1fr [line2] 2fr [end] 1fr [line4];
+  grid-template-rows: [start] 1fr [line2] 2fr [end] 1fr [line4];
+  gap: 10px;
+}
+
+.box {
+  padding: 1rem;
+  background: grey;
+  border: 2px solid red;
+}
+
+.long-hand-grid-lines {
+  grid-column-start: start;
+  grid-column-end: end;
+  grid-row-start: start;
+  grid-row-end: end;
+}
+
+.short-hand-grid-lines {
+  grid-column: start/end;
+  grid-row: start/end;
+}

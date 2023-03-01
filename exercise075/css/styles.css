@@ -1,0 +1,54 @@
+/* Reset Browser Defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid-container-3-columns-by-3-rows {
+  border: 5px solid blue;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box {
+  padding: 1rem;
+  border: 2px solid red;
+}
+
+.box1 {
+  background: green;
+}
+
+.box2 {
+  background: yellow;
+}
+
+.box3 {
+  background: orange;
+}
+
+.box4 {
+  background: brown;
+}
+
+.box5 {
+  background: grey;
+}
+
+.box6 {
+  background: violet;
+}
+
+.order2 {
+  order: 2;
+}
+
+.order3 {
+  order: 3;
+}
+
+.order-1 {
+  order: -1;
+}

@@ -1,0 +1,34 @@
+/* Reset Browser Defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid-container-2-rows {
+  border: 5px solid blue;
+  margin: 10px;
+  display: grid;
+  grid-template-rows: 100px 200px;
+}
+
+.grid-container-3-rows {
+  border: 5px solid blue;
+  margin: 10px;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+}
+
+.grid-container-3-columns-by-2-rows {
+  border: 5px solid blue;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr;
+}
+
+.box {
+  padding: 1rem;
+  background: grey;
+  border: 2px solid red;
+}
