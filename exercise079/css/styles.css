@@ -9,14 +9,17 @@
   border: 5px solid blue;
   margin: 10px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  height: 300px;
 }
 
-.grid-container-3-columns-by-3-rows-repeat {
-  border: 5px solid blue;
-  margin: 10px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+.align-items {
+  align-items: center;
+}
+
+.align-self {
+  align-self: flex-start;
 }
 
 .box {
